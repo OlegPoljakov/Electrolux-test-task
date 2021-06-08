@@ -1,8 +1,6 @@
 # Electrolux-test-task
 
-Simple api servivce with database
-
-Java + Some JPA, some Spring Framework and H2 database.
+Simple api service with database. Java + Some JPA, some Spring Framework and H2 database.
 
 Here we have an entities of stove and dishes washing machine. Both can be created, turned on and off, the temperature can be set. All the changes are saved in database.
 
