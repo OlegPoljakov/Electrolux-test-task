@@ -12,7 +12,7 @@ http://localhost:8889/dishwasher/on?id=1 (Turns ON the item with id = 1. In case
 
 http://localhost:8889/dishwasher/off?id=1 (Turns OFF the item with id = 1 and Set temp to 0. In case if there are no item with id = 1, the 404 error arises);
 
-http://localhost:8889/dishwasher/temp?id=1&temp=40 (sets the temp to 40 at the item with id #1. In case if there are no item with id #1, the 404 error arises);
+http://localhost:8889/dishwasher/temp?id=1&temp=40 (sets the temp to 40 at the item with id = 1. In case if there are no item with id = 1, the 404 error arises);
 
 
 Same thing with the stove:
