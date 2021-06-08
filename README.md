@@ -16,6 +16,7 @@ http://localhost:8889/dishwasher/temp?id=1&temp=40 (sets the temp to 40 at the i
 
 
 Same thing with the stove:
+
 http://localhost:8889/stove/new?model=one
  
 http://localhost:8889/stove/on?id=1
