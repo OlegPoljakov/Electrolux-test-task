@@ -1,12 +1,8 @@
 package Elctrlx.controller;
 
 import Elctrlx.entity.dishWasher.DishWasher;
-import Elctrlx.output.Output;
 import Elctrlx.service.DishWasherService;
-import com.google.gson.Gson;
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
