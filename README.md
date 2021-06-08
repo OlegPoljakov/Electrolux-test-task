@@ -7,6 +7,7 @@ Java + Some JPA, some Spring Framework and H2 database.
 Here we have an entities of stove and dishes washing machine. Both can be created, turned on and off, the temperature can be set. All the changes are saved in database.
 
 These are the api's to test:
+
 http://localhost:8889/dishwasher/new?model=margo (where "margo" is model and can be any name);
  
 http://localhost:8889/dishwasher/on?id=1 (Turns ON the item with id = 1. In case if there are no item with id #1, the 404 error arise);
