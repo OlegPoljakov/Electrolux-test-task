@@ -27,3 +27,9 @@ http://localhost:8889/stove/temp?id=1&temp=40
 
 
 I also tried to write some junit tests of controller methods, but haven't succeded yet.
+
+Here some of the shortcomings that has to be eliminated:
+- No exception handling and appropriate HTTP response codes
+- Business logic contains only simple CRUD operations
+- Two supported appliances have completely the same implementation in terms of code
+- Only controller is partially covered by tests
